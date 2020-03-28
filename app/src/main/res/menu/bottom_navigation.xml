@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_fundamentos"
+        android:title="Fundamentos"
+        android:icon="@drawable/ic_rss_feed_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_insight"
+        android:title="Insight"
+        android:icon="@drawable/ic_wb_incandescent_black_24dp"/>
+
+</menu>
