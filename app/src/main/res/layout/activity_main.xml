@@ -7,7 +7,27 @@
     tools:context=".activity.MainActivity"
     android:screenOrientation="landscape"
     >
+<!--
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
+
+    <ImageButton
+        android:id="@+id/imagembutton"
+        android:layout_width="241dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activty"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"/>-->
 
     <FrameLayout
         android:id="@+id/fragment_container"

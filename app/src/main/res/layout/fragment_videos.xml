@@ -4,16 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".VideosFragment">
+    tools:context=".tab_fragment.VideosFragment">
 
-
-
-
-    <VideoView
-        android:id="@+id/video_view"
-        android:layout_width="418dp"
-        android:layout_height="744dp"
-        tools:layout_editor_absoluteY="-13dp" />
 
     <ImageButton
         android:id="@+id/imagembutton"

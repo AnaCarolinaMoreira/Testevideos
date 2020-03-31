@@ -1,26 +1,24 @@
 package com.example.testevideos.fragment;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.testevideos.ArtigosFragment;
-import com.example.testevideos.CitacoesFragment;
+import com.example.testevideos.fragment_tab;
+import com.example.testevideos.tab_fragment.ArtigosFragment;
+import com.example.testevideos.tab_fragment.CitacoesFragment;
 import com.example.testevideos.R;
 
 
-import com.example.testevideos.VideosFragment;
+import com.example.testevideos.tab_fragment.VideosFragment;
 import com.google.android.material.tabs.TabLayout;
 
 
@@ -64,7 +62,7 @@ public class InsightFragment extends Fragment {
 
     public class PagerAdapter extends FragmentStatePagerAdapter {
         int mNumOfTabs;
-        private String[] tabTitles = new String[]{"VÍDEOS", "Tab2", "Tab2"};
+        private String[] tabTitles = new String[]{"VÍDEOS", "ARTIGOS", "CITAÇÕES"};
 
         public PagerAdapter(FragmentManager fm, int NumOfTabs) {
             super(fm);
@@ -83,7 +81,7 @@ public class InsightFragment extends Fragment {
                 case 0:
                     return new VideosFragment();
                 case 1:
-                    return new ArtigosFragment();
+                    return new fragment_tab();
                 case 2:
                     return new CitacoesFragment();
 
